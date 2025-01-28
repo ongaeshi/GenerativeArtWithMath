@@ -19,16 +19,17 @@ def setup
   createCanvas(num_a, num_b)
   background(200)
   while wd > 0 do
-    fill(random(1), 1, 1)
     itr += 1
     if itr % 2 == 1
       while x_pos + wd <= num_a do
+        fill(random(1), 1, 1)
         rect(x_pos, y_pos, wd, wd)
         x_pos += wd
       end
       wd = num_a - x_pos
     else
       while y_pos + wd <= num_b do
+        fill(random(1), 1, 1)
         rect(x_pos, y_pos, wd, wd)
         y_pos += wd
       end
