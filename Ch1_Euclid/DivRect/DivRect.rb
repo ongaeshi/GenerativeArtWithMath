@@ -11,7 +11,7 @@ x_pos = 0
 y_pos = 0
 itr = 0
 
-size(500, 500)
+size(num_a, num_b)
 background(200)
 while wd > 0 do
   itr += 1
